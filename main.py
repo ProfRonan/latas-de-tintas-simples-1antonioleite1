@@ -5,9 +5,9 @@ metros_quadrados = float(metros_quadrados)
 Litro = metros_quadrados/3
 
 if metros_quadrados == 0:
-    print("Serão necessários 0 latas totalizando R$ 0")
+    print("Serão necessárias 0 latas totalizando R$ 0")
 elif 0 < metros_quadrados <= 54:
-    print("Serão necessários 1 lata totalizando R$ 80,00")
+    print("Serão necessárias 1 latas totalizando R$ 80")
 
 elif metros_quadrados > 54:
     qtd_de_latas = Litro/18
