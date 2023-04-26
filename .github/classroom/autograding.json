@@ -1,54 +1,14 @@
 {
   "tests": [
     {
-      "name": "Exemplo 1",
+      "name": "Test All",
       "setup": "",
-      "run": "python main.py",
-      "input": "0",
-      "output": "Serão necessárias 0 latas totalizando R$ 0",
+      "run": "python -m unittest",
+      "input": "",
+      "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 15
-    },
-    {
-      "name": "Exemplo 2",
-      "setup": "",
-      "run": "python main.py",
-      "input": "1",
-      "output": "Serão necessárias 1 latas totalizando R$ 80",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 15
-    },
-    {
-      "name": "Exemplo 4",
-      "setup": "",
-      "run": "python main.py",
-      "input": "54",
-      "output": "Serão necessárias 1 latas totalizando R$ 80",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 15
-    },
-    {
-      "name": "Exemplo 5",
-      "setup": "",
-      "run": "python main.py",
-      "input": "55",
-      "output": "Serão necessárias 2 latas totalizando R$ 160",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 15
-    },
-    {
-      "name": "Exemplo 6",
-      "setup": "",
-      "run": "python main.py",
-      "input": "215",
-      "output": "Serão necessárias 4 latas totalizando R$ 320",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 15
+      "points": 100
     }
   ]
 }
